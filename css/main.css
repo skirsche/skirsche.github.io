@@ -1,0 +1,16 @@
+body {
+  padding-top: 70px;
+}
+
+/* Workaround for http://stackoverflow.com/questions/20856425/bootstrap-3-0-3-navbar-right-and-pull-right */
+.navbar-right {
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
